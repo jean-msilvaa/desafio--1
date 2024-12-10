@@ -1,40 +1,39 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ol {
+/* Reset básico para remover margens e padding padrão */
+* {
   margin: 0;
   padding: 0;
-} */
+  box-sizing: border-box;
+}
 
-/* li { */
-  /* align-items: flex-start; Garante alinhamento vertical */
-  /* margin-bottom: 20px; Espaço entre os itens da lista */
-/* } */
-/* ul {
+/* Estilo geral do body */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+
+
+
+
+li {
+  align-items: flex-start; /* Garante alinhamento vertical*/ 
+  margin-bottom: 20px; /* Espaço entre os itens da lista */
+ }
+ ul {
   margin: 0; /* Remove margem padrão */
-  /* padding-left: 20px; Recuo para alinhar */
-/* } */
+  padding-left: 20px; /* Recuo para alinhar */
+ } 
 
-/* ul li {
-  /* list-style-type: disc; Marca da lista */
-  
-/* }  */
+ ul li {
+  list-style-type: disc; /* Marca da lista */
+
+ }
