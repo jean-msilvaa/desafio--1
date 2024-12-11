@@ -1,27 +1,30 @@
-/* Reset básico para remover margens e padding padrão */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 :root {
   font-family: "Open Sans", sans-serif;
   line-height: auto;
 }
 
-/* Estilo geral do body */
+
 body {
-  background-color: #D9D9D9; 
+  background-color: #D9D9D9;
+  margin: 0;
+  padding: 0;
 }
 
+
 #page {
+  box-sizing: border-box;
   width: 1120px;
+  padding: 0%;
   margin-top: 88px;
-  margin-bottom: 137px;
+  margin-bottom: 70px;
   margin-left: 80px;
   margin-right: 80px;
   background-color: #F5F4F0;
+  
 }
+
+
 
 .headline {
   font-size: 16px;
@@ -31,6 +34,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 8px;
 }
+
 h1 {
 font-size: 36px;
 font-weight: bold;
@@ -91,6 +95,7 @@ li {
  ul {
   margin-bottom: 48px; 
   padding: 0;
+  color: #333333;
 }
 
 ul:last-of-type {
